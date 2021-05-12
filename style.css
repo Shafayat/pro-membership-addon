@@ -1,0 +1,80 @@
+/* Mark input boxes that gets an error on validation: */
+div.input-wrapper.invalid {
+    border-color: red !important;
+}
+
+/* Hide all steps by default: */
+.step-tab {
+    display: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+
+.ms-prevNext {
+    font-size: 1em;
+    border-radius: 0.25rem;
+    padding: 15px 48px;
+}
+
+#wp-submit {
+    display: none;
+}
+
+#wppmcheckout {
+    max-width: 650px !important;
+}
+
+.full-opacity .checkboxes label {
+    opacity: 1 !important;
+}
+
+div.file {
+    position: relative;
+    overflow: hidden;
+}
+
+div.file input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+button#edit_profile_sbtn {
+    margin-top: 20px;
+}
